@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    background-image: url(../6-img/notebook.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav li a{
+    color: #fff !important;
+    font-weight: bold
+}
+
+nav li a:hover{
+    /* color: #3D9C05 !important; */
+    text-shadow: 0 0 4px #fff, 0 0 4px #fff;
+}
+
+.chamada{
+    text-shadow: 1px 1px 0px #000;
+}
+
+.sub-chamada{
+    color: #fff;
+    text-shadow: 1px 1px 0px #000;
+}
+
+header{
+    margin-top: 230px;
+}
+
+.btn{
+    background-color: #3D9C05;
+    color: #fff;
+    border-radius: 192px 192px 192px 192px;
+    -moz-border-radius: 192px 192px 192px 192px;
+    -webkit-border-radius: 192px 192px 192px 192px;
+    border: 0px solid #000000;
+}
+
+.btn:hover{
+    color: #fff;
+    text-shadow: 0 0 4px #fff, 0 0 4px #fff;
+    background-color: rgb(45, 121, 2);
+}
